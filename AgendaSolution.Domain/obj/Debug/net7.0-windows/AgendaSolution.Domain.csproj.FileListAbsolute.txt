@@ -1,0 +1,12 @@
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\bin\Debug\net7.0-windows\AgendaSolution.Domain.deps.json
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\bin\Debug\net7.0-windows\AgendaSolution.Domain.dll
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\bin\Debug\net7.0-windows\AgendaSolution.Domain.pdb
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.dll
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\refint\AgendaSolution.Domain.dll
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\AgendaSolution.Domain.pdb
+C:\Users\Aluno\source\repos\AgendaSolution\AgendaSolution.Domain\obj\Debug\net7.0-windows\ref\AgendaSolution.Domain.dll

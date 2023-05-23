@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AgendaSolution.Win.Cadastros/1.0.0": {
+        "dependencies": {
+          "AgendaSolution.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AgendaSolution.Win.Cadastros.dll": {}
+        }
+      },
+      "AgendaSolution.Domain/1.0.0": {
+        "runtime": {
+          "AgendaSolution.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgendaSolution.Win.Cadastros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgendaSolution.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
