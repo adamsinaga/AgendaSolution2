@@ -11,5 +11,15 @@ namespace AgendaSolution.Win.Main
         {
 
         }
+
+        private void arquivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contatoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

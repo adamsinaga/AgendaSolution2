@@ -30,74 +30,69 @@
         {
             label1 = new Label();
             menuStrip1 = new MenuStrip();
-            arquivoToolStripMenuItem = new ToolStripMenuItem();
-            contatoToolStripMenuItem = new ToolStripMenuItem();
             sobreToolStripMenuItem = new ToolStripMenuItem();
             agendaSolution2023ToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem2 = new ToolStripMenuItem();
+            cadastroToolStripMenuItem = new ToolStripMenuItem();
+            contatoToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 421);
+            label1.Location = new Point(10, 316);
             label1.Name = "label1";
-            label1.Size = new Size(104, 20);
+            label1.Size = new Size(80, 15);
             label1.TabIndex = 0;
             label1.Text = "Software 2023";
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { arquivoToolStripMenuItem, sobreToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { cadastroToolStripMenuItem, sobreToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Size = new Size(700, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
-            // 
-            // arquivoToolStripMenuItem
-            // 
-            arquivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { contatoToolStripMenuItem, toolStripMenuItem2 });
-            arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            arquivoToolStripMenuItem.Size = new Size(27, 24);
-            arquivoToolStripMenuItem.Text = " ";
-            // 
-            // contatoToolStripMenuItem
-            // 
-            contatoToolStripMenuItem.Name = "contatoToolStripMenuItem";
-            contatoToolStripMenuItem.Size = new Size(224, 26);
-            contatoToolStripMenuItem.Text = "Contato";
-            contatoToolStripMenuItem.Click += contatoToolStripMenuItem_Click;
             // 
             // sobreToolStripMenuItem
             // 
             sobreToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { agendaSolution2023ToolStripMenuItem });
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            sobreToolStripMenuItem.Size = new Size(62, 24);
+            sobreToolStripMenuItem.Size = new Size(49, 20);
             sobreToolStripMenuItem.Text = "Sobre";
             // 
             // agendaSolution2023ToolStripMenuItem
             // 
             agendaSolution2023ToolStripMenuItem.Name = "agendaSolution2023ToolStripMenuItem";
-            agendaSolution2023ToolStripMenuItem.Size = new Size(231, 26);
+            agendaSolution2023ToolStripMenuItem.Size = new Size(183, 22);
             agendaSolution2023ToolStripMenuItem.Text = "AgendaSolution2023";
             // 
-            // toolStripMenuItem2
+            // cadastroToolStripMenuItem
             // 
-            toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(224, 26);
-            toolStripMenuItem2.Text = " ";
+            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { contatoToolStripMenuItem });
+            cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
+            cadastroToolStripMenuItem.Size = new Size(66, 20);
+            cadastroToolStripMenuItem.Text = "Cadastro";
+            // 
+            // contatoToolStripMenuItem
+            // 
+            contatoToolStripMenuItem.Name = "contatoToolStripMenuItem";
+            contatoToolStripMenuItem.Size = new Size(180, 22);
+            contatoToolStripMenuItem.Text = "Contato";
+            contatoToolStripMenuItem.Click += contatoToolStripMenuItem_Click_1;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MainForm";
             Text = "Agenda";
             menuStrip1.ResumeLayout(false);
@@ -110,10 +105,9 @@
 
         private Label label1;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem arquivoToolStripMenuItem;
-        private ToolStripMenuItem contatoToolStripMenuItem;
         private ToolStripMenuItem sobreToolStripMenuItem;
         private ToolStripMenuItem agendaSolution2023ToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem cadastroToolStripMenuItem;
+        private ToolStripMenuItem contatoToolStripMenuItem;
     }
 }

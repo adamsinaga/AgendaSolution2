@@ -16,5 +16,10 @@ namespace AgendaSolution.Win.Cadastros
         {
             InitializeComponent();
         }
+
+        private void ContatoCadastroForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
